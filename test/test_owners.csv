@@ -289,6 +289,7 @@ PetSet Deploy clustered applications should creating a working mysql cluster,pio
 PetSet Deploy clustered applications should creating a working redis cluster,mtaufen,1
 PetSet Deploy clustered applications should creating a working zookeeper cluster,rmmh,1
 "Pod Disks Should schedule a pod w/ a RW PD, gracefully remove it, then schedule it on another host",saad-ali,0
+Pod Disks should be able to detach from a node which was deleted,rkouj,0
 "Pod Disks Should schedule a pod w/ a readonly PD on two hosts, then remove both gracefully.",saad-ali,0
 "Pod Disks should schedule a pod w/ a RW PD shared between multiple containers, write to PD, delete pod, verify contents, and repeat in rapid succession",saad-ali,0
 "Pod Disks should schedule a pod w/ a RW PD, ungracefully remove it, then schedule it on another host",mml,1
