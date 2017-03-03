@@ -352,6 +352,7 @@ PersistentVolumes PersistentVolumes:NFS with multiple PVs and PVCs all in same n
 PersistentVolumes when kubelet restarts *,rkouj,0
 Pet Store should scale to persist a nominal number ( * ) of transactions in * seconds,xiang90,1
 "Pod Disks Should schedule a pod w/ a RW PD, gracefully remove it, then schedule it on another host",saad-ali,0
+Pod Disks should be able to detach from a node which was deleted,rkouj,0
 "Pod Disks Should schedule a pod w/ a readonly PD on two hosts, then remove both gracefully.",saad-ali,0
 Pod Disks should be able to detach from a node which was deleted,rkouj,0
 Pod Disks should be able to detach from a node whose api object was deleted,rkouj,0
